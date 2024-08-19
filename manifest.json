@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+  "name": "Email Scraper",
+  "description": "Extension the Scrapes emails of the website currently active",
+  "version": "1.0",
+ 
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting",
+    "activeTab",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+   "<all_urls>"
+  ]
+}
